@@ -71,7 +71,8 @@ public class ValidaReg extends HttpServlet {
             sesion.setAttribute("Rol", Rol);
             
             PrintWriter out = response.getWriter();
-            out.println("<html><head></head><body>");
+            out.println("<html><head>");
+            out.println("<style type='text/css'> @import url('Estilos/style2.css')</style></head><body>");
             out.println("¡Bienvenido!" + Rol +"<br>");
             out.println("<a href=\"/ProyectoPM/Verificar\">Verifica tu Sesion</a>");
             out.println("<a href=\"/ProyectoPM/index.html\"> Volver</a><br>");
@@ -80,7 +81,8 @@ public class ValidaReg extends HttpServlet {
         }
         else{
             PrintWriter out = response.getWriter();
-            out.println("<html><head></head><body>");
+            out.println("<html><head>");
+            out.println("<style type='text/css'> @import url('Estilos/style2.css')</style></head><body>");
             out.println("Cuenta no Valida");
             out.println("<a href=\"/ProyectoPM/index.html\"> Volver</a>");
             out.println("<br>");
