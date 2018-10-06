@@ -87,6 +87,7 @@ public class Registro extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
+            out.println("<style type='text/css'> @import url('Estilos/style2.css')</style>");
             out.println("<title>Servlet Registro</title>");            
             out.println("</head>");
             out.println("<body>");
