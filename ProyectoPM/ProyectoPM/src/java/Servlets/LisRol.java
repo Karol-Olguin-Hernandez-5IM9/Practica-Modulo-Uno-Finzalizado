@@ -67,6 +67,7 @@ public class LisRol extends HttpServlet {
                 
                 out.println("<html>");
                 out.println("<head>");
+                out.println("<style type='text/css'> @import url('Estilos/style2.css')</style>");
                 out.println("<title>Servlet IngRol</title>");            
                 out.println("</head>");
                 out.println("<body>");
