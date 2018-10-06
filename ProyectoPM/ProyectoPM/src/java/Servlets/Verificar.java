@@ -40,6 +40,7 @@ public class Verificar extends HttpServlet {
         if(rol.equals("1")){
             PrintWriter out = response.getWriter();
             out.println("<html><head></head><body>");
+            out.println("<style type='text/css'> @import url('Estilos/style2.css')</style>");
             out.println("Bienvenid@ "+ Usua + " eres admin<br>");
             out.println("<form action='LisRol' method='Post'>");
             out.println("<a href=\"/ProyectoPM/GenNuPro.jsp\"> Generar Nuevo Proyecto</a><br>");
@@ -56,6 +57,7 @@ public class Verificar extends HttpServlet {
             if(rol.equals("2")){
                 PrintWriter out = response.getWriter();
                 out.println("<html><head></head><body>");
+                out.println("<style type='text/css'> @import url('Estilos/style2.css')</style>");
                 out.println("Bienvenid@ "+Usua+ " eres Arquitecto");
                 out.println("<a href=\"/ProyectoPM/Proyectos.jsp\"> Proyectos</a><br>");
                 out.println("<a href=\"/ProyectoPM/Calculos.jsp\"> Calculos</a><br>");
@@ -68,6 +70,7 @@ public class Verificar extends HttpServlet {
                 if(rol.equals("3") || rol.equals("0")){
                     PrintWriter out = response.getWriter();
                     out.println("<html><head></head><body>");
+                    out.println("<style type='text/css'> @import url('Estilos/style2.css')</style>");
                     out.println("Bienvenid@ "+Usua+ " eres Visitante");
                     out.println("<a href=\"/ProyectoPM/Calculos.jsp\"> Calculos</a><br>");
                     out.println("<a href=\"/ProyectoPM/Simulacion.jsp\"> Simulacion</a><br>");
