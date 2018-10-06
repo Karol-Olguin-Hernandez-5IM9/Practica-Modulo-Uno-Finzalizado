@@ -48,7 +48,7 @@ public class Verificar extends HttpServlet {
             out.println("<a href=\"/ProyectoPM/Simulacion.jsp\"> Simulacion</a><br>");
             out.println("<a href=\"/ProyectoPM/IngNueArq.jsp\"> Ingresar nuevo Arquitecto</a><br>");
             out.println("<button> Lista de Usuarios sin Rol</button><br>");
-            out.println("<a href=\"/ProyectoPM/index.html\"> Volver</a>");
+            out.println("<a href=\"/ProyectoPM/index.html\"> Volver</a></form>");
             out.println("<br>");
             out.println("<br></body></html>");
         }
