@@ -72,10 +72,10 @@ public class LisRol extends HttpServlet {
                 out.println("</head>");
                 out.println("<body>");
                 out.println("<form action='Rol.jsp' method='Post'");
-                out.println("<input type='text' value="+Nom+" disabled>");
-                out.println("<input type='text' value="+Ap+" disabled>");
-                out.println("<input type='text' value="+Am+" disabled>");
-                out.println("<button>Validar Rol<button><br>");
+                out.println("<input type='text' value="+Nom+" name="+Nom+" disabled>");
+                out.println("<input type='text' value="+Ap+" name="+Ap+"disabled>");
+                out.println("<input type='text' value="+Am+" name="+Am+" disabled>");
+                out.println("<button>Validar Rol</button><br>");
                 out.println("</form>");
                 out.println("</body>");
                 out.println("</html>"); 
