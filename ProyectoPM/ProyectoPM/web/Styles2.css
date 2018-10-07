@@ -1,0 +1,77 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06-oct-2018, 18:11:19
+    Author     : karol
+*/
+
+input[type=text]{
+    border-radius: 3px;
+    border: 7px red;
+    width: 25%;
+    height: 25%;
+    background-color: whitesmoke;
+}
+
+input[type=submit]{
+    height: 40px;
+    width: 70px;
+    border: 5px darkred;
+    background-color: red;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+select{
+    border-radius: 3px;
+    border: 7px red;
+    width: 15%;
+    height: 40px;
+    background-color: whitesmoke;
+}
+
+button{
+    height: 40px;
+    width: 70px;
+    border: 5px darkred;
+    background-color: red;
+    color: antiquewhite;
+    border-radius: 10px;
+}
+
+input[type=submit]:hover, button :hover{
+    border: 5px darkred;
+    background-color: darkred;
+    color: antiquewhite;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h1{
+    color: orange;
+    font-family: 'Impact','Arial Black';
+    font-size: 40px;
+}
+/*Parrafos*/
+p{
+    color: lightgray;
+    font-family: 'Arial Black', 'Verdana';
+    font-size: 30px;
+}
+/*Links no se si se esriba asi*/
+a{
+    color: greenyellow;
+    font-family: 'Arial', 'Verdana';
+    font-style: italic;
+}
+
+body{
+    background-image: url("Fondo.png");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: auto 100%;
+}
